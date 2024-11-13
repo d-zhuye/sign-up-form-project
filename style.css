@@ -1,0 +1,117 @@
+body {
+    font-family: "outfit";
+    text-align: center;
+    background-color: rgb(221, 229, 220);
+    width: 60vw;
+    height: 80vh;
+    margin: 5% auto;
+}
+
+body * {
+    display: flex;
+}
+
+#main {
+    background-color: white;;
+    width: 1100px;
+    height: 100%;
+    box-shadow: 0px 5px 100px gray;
+
+}
+
+#left-container {
+    min-width: 400px;
+    height: 100%;
+    background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+}
+
+#photo-credit,
+#photo-credit > a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#right-container {
+    text-align: left;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+#right-container > * {
+    padding-left: 30px;
+}
+
+#message-container {
+    padding-bottom: 40px;
+}
+
+.signup-message {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#signup-form{
+    background: white;
+    box-shadow: 0px 5px 40px -10px gray;
+    flex-direction: column;
+}
+
+fieldset {
+    border: 0;
+}
+
+#form-left, 
+#form-right {
+    padding-top: 10px;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+input, label {
+    display: block;
+}
+
+label {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+input {
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    background-color: rgb(233, 243, 233);
+}
+
+#submit {
+    margin: 30px 0px;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#submit-button {
+    width: 200px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #596D48;
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px 30px;
+    display: block;
+    text-align: center;
+}
+
+#submit-button:hover{
+    cursor:pointer;
+}
+
+#log-in > a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: #596D48;
+    font-weight: 600;
+}
